@@ -1,0 +1,39 @@
+{
+  "name": "benutaxi-driver",
+  "version": "1.0.0",
+  "description": "BenuTaxi Driver Application with Google Maps Integration",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "framer-motion": "^10.16.4",
+    "zustand": "^4.4.0",
+    "axios": "^1.6.0",
+    "react-icons": "^4.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
